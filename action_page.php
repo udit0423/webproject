@@ -4,12 +4,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Handle signup
         $email = $_POST["email"];
         $password = $_POST["psw"];
-        // You should validate and sanitize user input here
-        
-        // Perform database insertion or other signup-related tasks
-        // For example, you can use a database library like MySQLi or PDO to insert user data into a database.
-        
-        // Redirect the user to a thank you page or home page after successful signup
         header("Location: thank_you_page.html");
     } elseif (isset($_POST["login"])) {
         // Handle login
