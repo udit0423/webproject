@@ -1,0 +1,44 @@
+.course_main{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    ;
+}
+
+.course_content{
+    margin-bottom: 30px;
+    height: auto;
+    width: 30%;
+    min-height: auto;
+    overflow:auto;
+    text-align: center;
+    background-color: #f2fbfa;;
+    box-shadow: 0 10px 30px 0 rgb(15 16 16 / 35%);
+    cursor: pointer;
+    margin-left: 30px;
+    padding: 0px;
+}
+    .coursebox_heading{
+        font-size: 20px;
+        line-height: 28px;
+        font-family: "IBM Plex Sans", sans-serif;
+        padding-bottom: 0px;
+        font-weight: 400;
+        margin: 0px;
+        text-align: left;
+        padding-left: 20px;
+    }.coursebox_content{
+        padding-bottom: 7px;
+        color: #6c6b6b;
+        /* position: ; */
+        list-style-type: disc; ;
+        /* padding-left: 17px; */
+        padding-right: 17px;
+        text-align: start;
+        font-size: larger;
+
+        
+    }
+    
