@@ -1,28 +1,37 @@
 <?php
-// Check if the form is submitted
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Get form data
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $phone = $_POST["phone"];
-    $mode = $_POST["mode"];
+$server_name="localhost";
+$username="webproject";
+$password="Kiran@1234";
+$database_name="database123";
 
-    // Data to be saved in CSV format
-    $data = array($name, $email, $phone, $mode);
+$conn=mysqli_connect($server_name,$username,$password,$database_name);
+//now check the connection
+if(!$conn)
+{
+	die("Connection Failed:" . mysqli_connect_error());
 
-    // Open the CSV file for writing (you can adjust the filename and path)
-    $csvFile = 'data.csv';
-    $file = fopen($csvFile, 'a'); // 'a' mode appends to the file
+}
 
-    // Write the data to the CSV file
-    fputcsv($file, $data);
+if(isset($_POST['save']))
+{	
+	 $name = $_POST['name'];
+	 $email = $_POST['email'];
+	 $phone = $_POST['phone'];
+     $mode = $_POST["mode"];
 
-    // Close the CSV file
-    fclose($file);
+	 $sql_query = "INSERT INTO demo (fname,email,phone,mode)
+	 VALUES ('$name','$email','$phone','$mode')";
 
-    header("Location: thank_you.html"); 
-} else {
+	 if (mysqli_query($conn, $sql_query)) 
+	 {
+        header("Location: thank_you.html"); 
 
-    echo "Form not submitted.";
+	 } 
+	 else
+     {
+		echo "Error: " . $sql . "" . mysqli_error($conn);
+	 }
+	 mysqli_close($conn);
 }
 ?>
+

@@ -7,25 +7,31 @@
     <title>eradigicloud</title>
   </head>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index_style.css">
+  <link rel="stylesheet" href="counting.css">
+
 
   <body>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <header> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css">
 
       <div class="head">
         <img src="cropped-1.png" class="profile" alt="eradigicloud" >
         <nav>
-          <a href="http://127.0.0.1:5500/eradigiloud.html" class="index" >HOME</a>
-          <a href="http://127.0.0.1:5500/aboutus.html" class="index">ABOUT US</a>
-          <a href="http://127.0.0.1:5500/course.html" class="index">COURSES</a>
-          <a href="http://127.0.0.1:5500/loginsinguppage.html" class="index">LOGIN/SIGNUP</a>
-          <a href="http://127.0.0.1:5500/privacy.html#" class="index">PRIVACY POLICY</a>
+          <a href="index.html" class="index" >HOME</a>
+          <a href="aboutus.html" class="index">ABOUT US</a>
+          <a href="course.html" class="index">COURSES</a>
+          <a href="contactus.html" class="index">CONTACT</a>
+        <a href="login.html" class="index">LOGIN/SIGNUP</a>
         </nav>
+        
         
       </div>
     <!-- </header> -->
     <hr>
-    <div class="demo">
+    
+    <div class="demo" >
     <h3 style=" font-weight: 500;line-height: 35px; font-family:hind, sans-serif; ;font-size: 25px ";>Register for Demo</h3>
     <!-- <p>Eradigicloud Leading Digital Training Company in Delhi.</p> -->
       <form method="post" action="demo.php">
@@ -33,20 +39,20 @@
         <input type="text" id="name" name="name" required placeholder="Enter your name here"><br><br>
         
         <!-- <label for="email">Email:</label> -->
-        <input type="email" id="email" email="email" required placeholder="Enter your email here"><br><br>
+        <input type="email" id="email" email="email" name="email" required placeholder="Enter your email here"><br><br>
         
         <!-- <label for="phone">Phone Number: </label> -->
-        <input type="tel" id="phone" phone="phone" required placeholder="Enter your phone Number here"><br><br>
+        <input type="tel" id="phone" phone="phone" name="phone"  required placeholder="Enter your phone Number here"><br><br>
         
        
 
-        <select name="mode" id="mode" required >
+        <select name="mode" id="mode" name="mode" required >
           <option value=" ">online/offline</option>
           <option value="online">online</option>
           <option value="offline">offline</option>
         </select>
         <br><br>
-        <input style="cursor: pointer; color: white; background-color: #166460;"   type= "submit" value= "Submit" >
+        <input style="cursor: pointer; color: white; background-color: #166460;"   name="save" type= "submit" value= "Submit" >
       </form>
     </div>
     <h2 style="margin: 100px; font-weight: 400;">...  The eradigicloud</h2>
@@ -55,8 +61,9 @@
     Self-paced + Live Online Sessions </h4>
     <h4 style="margin: 100px; font-weight: 600;line-height: 21px; font-family:hind, sans-serif; ;font-size: 18px ";>
       Personalized Online Digital Marketing Course is taught by industry experts in a comprehensive & question-oriented format. </h4>
-    <a href="#" style="margin: 100px; border-radius: 10px;border: 2px;width: 180px;height: 50px;cursor: pointer; color: white; background-color: #166460;">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdmbdg7oPKDgYFzBum7T7_Kj_KS0c4LQQKu5ZatJy2xHdikSw/viewform?pli=1" style="margin: 100px; border-radius: 10px;border: 2px;width: 180px;height: 50px;cursor: pointer; color: white; background-color: #166460;">
     APPLY NOW </a>
+    
 <h2 class="content_heading">
   Who can Learn Digital Marketing Course?
 </h2>
@@ -106,14 +113,156 @@
     For the individuals who are working on marketing and communications and want to grow visibility, brand awareness, online brand position, etc
   </p>
 </div>
-</div>
-     <br>        
-     <br>        
-     <br>        
-<h2 style="margin-bottom: 20px; font-family: Rubik, Sans-serif; color: rgba(0, 0, 0, 0.89); "class="content_heading">We are a professional and reputable company.</h2>
-<p class="box_content" style="line-height: 35px; font-size: 25px; margin: 0px 100px 60px 100px;">At eradigicloud, we are a passionate team of digital marketing enthusiasts, driven by the desire to revolutionize your online success. With a proven track record of 420 completed projects and counting, our expertise covers the entire digital marketing spectrum.</p>
-  
+</div>      
+     <h2 class="content_heading">
+        Our Offerings
+      </h2>
+      <div class="index_main">
+        <div class="index_offering">
+          <div style="flex: 0 0 50%; padding: 0px; display: flex;">     
+            <div class="index_image">
+              <img src="19.jpeg" alt="">
+            </div>
+            <div class="index_content">
+              <div style="padding: 15px;">
+                <span style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 500; letter-spacing: 2px; margin: auto; font-size: 25px;" class="content_heading">Industry Experts</span>
+                <h4 class="indexbox_content">    
+              Learn from experienced professionals who bring real-world insights and up-to-date knowledge to the classroom
+                </h4>
+              </div>
+            </div>
+          </div>  
+          <div style="flex: 0 0 50%; padding: 0px; display: flex;">     
+            <div class="index_image">
+              <img src="live.png" alt="">
+            </div>
+            <div class="index_content">
+              <div style="padding: 15px;">
+                <span style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 500; letter-spacing: 2px; margin: auto; font-size: 25px;" class="content_heading">LIVE PROJECTS</span>
+                <h4 class="indexbox_content">
+                  We train students with all the latest trends in the industry, as per google updates.                </h4>
+              </div>
+            </div>
+          </div>  
+          <div style="flex: 0 0 50%; padding: 0px; display: flex;">     
+            <div class="index_image">
+              <img src="16.jpeg" alt="">
+            </div>
+            <div class="index_content">
+              <div style="padding: 15px;">
+                <span style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 500; letter-spacing: 2px; margin: auto; font-size: 25px;" class="content_heading">CERTIFICATIONS</span>
+                <h4 class="indexbox_content">
+                  Certifications play a major role in every industry, You will get multiple certificates.
+                </h4>
+              </div>
+            </div>
+          </div>  
+          <div style="flex: 0 0 50%; padding: 0px; display: flex;">     
+            <div class="index_image">
+              <img src="Case-Study.jpg" alt="">
+            </div>
+            <div class="index_content">
+              <div style="padding: 15px;">
+                <span style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 500; letter-spacing: 2px; margin: auto; font-size: 25px;" class="content_heading">CASE STUDY DISCUSSION</span>
+                <h4 class="indexbox_content">
+                  We have real life case studies for better understanding and discussions.
+                </h4>
+              </div>
+            </div>
+          </div>  
+          <div style="flex: 0 0 50%; padding: 0px; display: flex;">     
+            <div class="index_image">
+              <img src="job.png" alt="">
+            </div>
+            <div class="index_content">
+              <div style="padding: 15px;">
+                <span style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 500; letter-spacing: 2px; margin: auto; font-size: 25px;" class="content_heading">JOB ASSISTANCE</span>
+                <h4 class="indexbox_content">
+                  Our multiple program assure a 100% Job assistance after completion of the course.
+                </h4>
+              </div>
+            </div>
+          </div>  
+          <div style="flex: 0 0 50%; padding: 0px; display: flex;">     
+            <div class="index_image">
+              <img  src="20.jpeg" alt="">
+            </div>
+            <div class="index_content">
+              <div style="padding: 15px;">
+                <span style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 500; letter-spacing: 2px; margin: auto; font-size: 25px;" class="content_heading">LIFETIME SUPPORT</span>
+                <h4 class="indexbox_content">
+                  We Support includes Resume preparation, HR assistance, References.
+                </h4>
+              </div>
+            </div>
+          </div>  
+          </div>  
+          </div>  
+          <br>
+          <h2 class="content_heading">our <br> achievements </h2>
+          <div>
+            <div class="wrapper">
+              <div class="container">
+              <i class="fas fa-users"></i>
+              <span class="num" data-val="400">000</span>
+              <i class="fas fa-plus"></i>
+              <span class="text">Students Trained</span>
+            </div>
+            <div class="container">
+              <i class="fas fa-smile-beam"></i>
+              <span class="num" data-val="100">000</span>
+              <i class="fas fa-percentage"></i>
+              <span class="text">Students Satisfaction</span>
+            </div>
+            <div class="container">
+              <i class="fas fa-handshake"></i>
+              <span class="num" data-val="20">000
+              </span>
+              <i class="fas fa-plus"></i>
+              
+              <span class="text">Hiring Partner</span>
+            </div>
+            <div class="container">
+              <i class="fas fa-laptop-code"></i>
+              <span class="num" data-val="100">000</span>
+              <i class="fas fa-plus"></i>
+              <span class="text">Hours Content</span>
+            </div>
+            <div class="container">
+              <i class="fas fa-circle-o-notch"></i>
+              <span class="num" data-val="45">000</span>
+              <i class="fas fa-plus"></i>
+              <span class="text">Completed Projects</span>
+            </div>
+          </div>
+          <!-- Script -->
+        </div>
+          <script src="script.js"></script>
 
+          <h2 class="content_heading">We are a professional and reputable company.</h2>
+          <h4  style="margin: 100px; font-weight: 600;line-height: 21px; font-family:hind, sans-serif; ;font-size: 18px ";>At eradigicloud, we have a passionate team of digital marketing & Cloud Computing enthusiasts, driven by the desire to revolutionize your online success. With a proven track record of 420 completed projects and counting, our expertise covers the entire digital marketing spectrum.</h4>
+          
+          <h2 class="content_heading">our demo video</h2>
+          <div style="display: flex; flex-direction: row ; padding: 25px; gap: 20px; margin-left: 100px;">
+            <div>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/9PodV6murec?si=yoqeY4qACHjpbnlt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/dV3NuKyiJ3g?si=0_lO2qBN_yEZGxux" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div style="display: flex; flex-direction: row ; padding: 25px; gap: 20px;margin-left: 100px">
+            <div>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/xgk-a76Br8U?si=4bBq6HGaTw_AxBdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/u3fEPtMFP8I?si=CdsJobaLqfUbEZJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+
+
+        
+          
 
 
 
@@ -164,11 +313,7 @@
             The Eradigicloud is a dominant brand in the education market across PAN India. 
             After imparting skills and information to 1,000+ students, 
             The Eradigicloud has embarked on a Global Certification and courses of various top skill-based learning education programmes, in order to make the best possible use of one's ability.
-          </p>
-          <a style="font-size: x-large; color: #ffffff;" href="#" class="fa fa-facebook"></a>
-          <a style="font-size: x-large; color: #ffffff;" href="#" class="fa fa-instagram"></a>
-          <a style="font-size: x-large; color: #ffffff;" href="#" class="fa fa-linkedin"></a>
-          <a style="font-size: x-large; color: #ffffff;" href="#" class="fa fa-youtube"></a>
+          </p> -->
           
         </div>
         
@@ -177,12 +322,12 @@
             QUICK LINKS
           </h2>
         
-            <a class="footer_links" href="#"> HOME </a><br>
-            <a class="footer_links" href="#"> ABOUT US </a><br>
-            <a class="footer_links" href="#"> PRIVACY POLICY </a><br>
-            <a class="footer_links" href="#"> CONTACT US </a><br>
-            <a class="footer_links" href="#"> COURSES </a><br>
-            <a class="footer_links" href="#"> FAQ </a><br>
+          <a class="footer_links" href="index.html"> HOME </a><br>
+          <a class="footer_links" href="aboutus.html"> ABOUT US </a><br>
+          <a class="footer_links" href="privacy.html"> PRIVACY POLICY </a><br>
+          <a class="footer_links" href="contactus.html"> CONTACT US </a><br>
+          <a class="footer_links" href="course.html"> COURSES </a><br>
+          <a class="footer_links" href="faq.html"> FAQ </a><br>
             
         
           </div>
@@ -203,15 +348,17 @@
           <h2 class="footer_headings">
           GET IN TOUCH
         </h2>
-        <a style="color: white; text-align: left;" href="https://www.google.com/maps/place/Olive+County,+Sector+5,+Vasundhara,+Ghaziabad,+Uttar+Pradesh+201012/@28.6596096,77.3785744,17z/data=!3m1!4b1!4m6!3m5!1s0x390cf00a843ce245:0x39186efda8439579!8m2!3d28.6596096!4d77.3785744!16s%2Fg%2F11hbl89jm3?entry=ttu" class="fa fa-map-marker">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Olive County, Sector 5, Vasundhara, Ghaziabad, Uttar Pradesh 201012 </a>
-        <a style="color: white; text-align: left;" href="#" class="fa fa-phone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +918571822977</a>
-        <a style="color: white; text-align: left;"href="#" class="fa fa-inbox">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; info@eradigicloud.co.in </a>
+        <a style="font-size: 11px; text-align-last:left ; margin: 0px; display: flex; color: white; text-align: left;" href="https://www.google.com/maps/place/Olive+County,+Sector+5,+Vasundhara,+Ghaziabad,+Uttar+Pradesh+201012/@28.6596096,77.3785744,17z/data=!3m1!4b1!4m6!3m5!1s0x390cf00a843ce245:0x39186efda8439579!8m2!3d28.6596096!4d77.3785744!16s%2Fg%2F11hbl89jm3?entry=ttu" class="fa fa-map-marked" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+          Olive County, Sector 5, Vasundhara,<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ghaziabad, Uttar Pradesh 201012
+      </a>
+              <a style="font-size: 11px; color: white; text-align: left;" href="#" class="fa fa-phone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +918571822977</a>
+        <a style="color: white; text-align: left;font-size: 11px;"href="#" class="fa fa-inbox">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; info@eradigicloud.co.in </a>
 
 
         </div>
       </div>
       <div class="footer_last">
-        <p style="display: inline-block; vertical-align: middle;">Copyright © 2022 The Digital Pathshala. All Rights Reserved.</p>
+        <p style="display: inline-block; vertical-align: middle;">Copyright © 2023 The EraDigiCloud. All Rights Reserved.</p>
       </div>
     </footer>
 

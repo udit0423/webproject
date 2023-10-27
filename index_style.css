@@ -1,0 +1,61 @@
+.index_main{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    ;
+}
+
+.index_content{
+    margin-bottom: 30px;
+    height: 198px;
+    width: auto;
+
+    min-height: auto;
+    text-align: center;
+    background-color: #f2fbfa;;
+    /* box-shadow: 0 10px 30px 0 rgb(15 16 16 / 35%); */
+    /* cursor: pointer; */
+    /* margin-left: 30px; */
+    padding: 0px;
+    margin-bottom: 20px;
+
+    
+}
+    .index_heading{
+        font-size: 20px;
+        line-height: 28px;
+        font-family: "IBM Plex Sans", sans-serif;
+        padding-bottom: 0px;
+        font-weight: 400;
+        margin: 0px;
+        text-align: left;
+        padding-left: 20px;
+    }.indexbox_content{
+        padding: 15px;
+        color: #000000;
+        text-align: start;
+        font-weight: 600;
+        font-family: "IBM Plex Sans", sans-serif;
+        line-height: 30px;
+        font-size: 20px;
+        margin-top: 0px;
+
+        
+    }
+    .index_image{
+        display: flex;
+        margin-bottom: 200px;
+        vertical-align: middle;
+        padding-left: 40px;border: 0px;
+        height: 198px;
+        width: 217px;
+        margin: 0px;
+        object-fit: cover;
+       
+    }.index_offering{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
